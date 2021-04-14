@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GithubUserApp</string>
+    <string name="users_name">User Names</string>
+    <string name="company">User Company</string>
+    <string name="follower_label">Follower:</string>
+    <string name="company_default">User Company</string>
+    <string name="repo_default">Repository : 99</string>
+    <string name="username_default">users</string>
+    <string name="location_default">Locations</string>
+    <string name="follower_total_default">0</string>
+    <string name="following_label">Following:</string>
+    <string name="following_total_default">0</string>
+    <string name="name_default">User Names</string>
+    <string name="main_title">GitHub User</string>
+    <string name="detail_title">Detail User</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search User</string>
+    <string name="tap">Tap for more details</string>
+</resources>

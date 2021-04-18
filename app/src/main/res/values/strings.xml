@@ -14,8 +14,21 @@
     <string name="main_title">GitHub User</string>
     <string name="detail_title">Detail User</string>
     <string name="change_language_settings">Change Language</string>
-    <string name="menu_1">Menu 1</string>
+    <string name="tab_follower">Followers</string>
+    <string name="tab_following">Following</string>
     <string name="search">Search</string>
     <string name="search_hint">Search User</string>
     <string name="tap">Tap for more details</string>
+    <string name="fav_off" translatable="false" />
+    <string name="fav_on" translatable="false" />
+    <string name="favorite_page_title">Favorite Page</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="switch_off">ON</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="switch_on">OFF</string>
+    <string name="settings_reminder">Reminder Setting</string>
+    <string name="alarm_title">Set Alarm Title</string>
+    <string name="alarm_off">Alarm Off</string>
+    <string name="togglealarm">Toggle Alarm</string>
+    <string name="alarm_on">Alarm ON</string>
 </resources>

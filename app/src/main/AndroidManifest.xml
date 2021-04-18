@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GithubUserApp">
-        <activity android:name=".SplashScreen" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".view.SettingsReminderActivity"></activity>
+        <activity
+            android:name=".view.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,9 +22,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UserDetailActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity"></activity>
+            android:name=".view.UserDetailActivity"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.MainActivity" />
+        <activity
+            android:name=".view.FavoriteActivity"
+            android:parentActivityName=".view.MainActivity" />
+
+        <receiver
+            android:name=".receiver.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

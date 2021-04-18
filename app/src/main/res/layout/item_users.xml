@@ -25,7 +25,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="7dp"
             android:text="@string/users_name"
-            android:textColor="@color/indigo_500"
             android:textSize="18sp"
             android:textStyle="bold"
             card_view:layout_constraintBottom_toTopOf="@+id/tv_users_links"

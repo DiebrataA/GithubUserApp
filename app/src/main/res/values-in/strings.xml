@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GithubUserApp</string>
+    <string name="users_name">Nama Pengguna</string>
+    <string name="company">Perusahaan</string>
+    <string name="follower_label">Pengikut:</string>
+    <string name="company_default">Nama Perusahaan</string>
+    <string name="repo_default">Repository : 99</string>
+    <string name="username_default">Pengguna</string>
+    <string name="location_default">Lokasi</string>
+    <string name="follower_total_default">0</string>
+    <string name="following_label">Diikuti:</string>
+    <string name="following_total_default">0</string>
+    <string name="name_default">Nama Pengguna</string>
+    <string name="main_title">GitHub User</string>
+    <string name="detail_title">Detail Pengguna</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="tab_follower">Pengikut</string>
+    <string name="tab_following">Diikuti</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Cari Pengguna</string>
+    <string name="tap">Klik untuk ke detail</string>
+    <string name="favorite_page_title">Halaman Favorit</string>
+    <string name="no_data_found">Tidak ada Data</string>
+    <string name="switch_off">ON</string>
+    <string name="set_reminder">Pasang Reminder</string>
+    <string name="switch_on">OFF</string>
+    <string name="settings_reminder">Pengaturan Reminder</string>
+    <string name="alarm_title">Tulis Judul Alarm</string>
+    <string name="alarm_off">Alarm Off</string>
+    <string name="togglealarm">Toggle Alarm</string>
+    <string name="alarm_on">Alarm ON</string>
+</resources>

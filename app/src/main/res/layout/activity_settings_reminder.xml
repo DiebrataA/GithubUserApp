@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.SettingsReminderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_repeat_time"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="0dp"
+            android:text="Set Time"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_repeat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="00:00" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_message_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/alarm_title"
+        android:inputType="text"
+        android:paddingVertical="6dp"
+        android:paddingLeft="0dp"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/indigo_500"
+        android:text="@string/togglealarm"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textOff="@string/alarm_off"
+        android:textOn="@string/alarm_on" />
+
+
+</LinearLayout>
